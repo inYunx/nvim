@@ -1,0 +1,11 @@
+--[[
+    file:  colorscheme.lua
+    action: neovim 的自动加载皮肤管理
+]]--
+
+local colorscheme = "gruvbox"
+local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
+if not status_ok then
+  vim.notify("colorscheme " .. colorscheme .. " 没有找到！")
+  return
+end
