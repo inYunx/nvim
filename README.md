@@ -36,6 +36,7 @@
 cd ~/.config
 git clone https://github.com/3cr7pt/nvim
 ```
+*克隆出现证书问题：* `git config --global http.sslVerify false`
 
 3. 安装 `Packer` 插件管理。
 
