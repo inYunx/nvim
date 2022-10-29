@@ -42,7 +42,7 @@ git clone https://github.com/3cr7pt/nvim
 
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
-~/.local/share/nvim/site/pack/packer/start/packer.nvim
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
 > 🍔 使用 `Packer` 安装的插件目录在： `~/.local/share/nvim/site/pack/packer/start`
